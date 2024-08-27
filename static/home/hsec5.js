@@ -151,7 +151,7 @@ __SYD.gallery_feature_images_comp = (display) =>{
                         },
                         [
                             __SYD.gallery_feature_images_comp_child3('a4.webp'),
-                            __SYD.gallery_feature_images_comp_child3('a5.JPG'),
+                            __SYD.gallery_feature_images_comp_child3('a5.jpg'),
                         ]
                     )
                 ]
@@ -174,7 +174,7 @@ __SYD.gallery_feature_images_comp_child1 = () =>{
     return __c(
         'div',
         {
-            style:`height:70vw;width:${__p(['hsec5_img_gallery_static','flex_param'],'row') === 'row' ? '30%' : '70%'};min-width:250px;max-height:380px;background-position:center 0;background-image:url("../assets/a3.JPG");`+__sC['border-rad-15'](),
+            style:`height:70vw;width:${__p(['hsec5_img_gallery_static','flex_param'],'row') === 'row' ? '30%' : '70%'};min-width:250px;max-height:380px;background-position:center 0;background-image:url("../assets/a3.jpg");`+__sC['border-rad-15'](),
             class:'thin_border'
         },[],{genericStyle:['bg_cover']}
     )
@@ -184,7 +184,7 @@ __SYD.gallery_feature_images_comp_child2 = () =>{
     return __c(
         'div',
         {
-            style:`min-height:${__p(['hsec5_img_gallery_static','flex_param'],'row') === 'row' ? '50%' : '33vw'};width:100%;background-position:center 0;background-image:url("../assets/a7.JPG");`+__sC['border-rad-15'](),
+            style:`min-height:${__p(['hsec5_img_gallery_static','flex_param'],'row') === 'row' ? '50%' : '33vw'};width:100%;background-position:center 0;background-image:url("../assets/a7.jpg");`+__sC['border-rad-15'](),
             class:'thin_border'
         },[],{genericStyle:['bg_cover']}
     )
