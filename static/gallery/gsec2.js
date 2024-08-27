@@ -44,7 +44,7 @@ __SYD.gsec2_galleryGrid = () =>{
             __c(
                 'div',
                 {
-                    style:'padding:10px 5px;display:flex;column-gap:20px;flex-wrap:wrap;column-gap:20px;'
+                    style:'padding:10px 5px;display:flex;column-gap:20px;flex-wrap:wrap;row-gap:20px;'
                 },
                 [
                     ...render_selector()
