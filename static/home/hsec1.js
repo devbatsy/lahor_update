@@ -5,7 +5,7 @@ __SYD.h_page_1_cont = () =>{
     return __c(
         'div',
         {
-            style:__sC['home_large_image']() + `background-image:url(../assets/${__p(['h_page_1_cont','bgImg'],'a1.JPG')});transition:background linear .5s;background-position:center 0;min-height:100vh;height:fit-content;max-height:unset;align-items:center;padding-top:${__p(['h_page_1_cont','font'],'45px') === '45px' ? '120px' : '160px'};background-attachment:fixed;flex-direction:column;row-gap:20px;`,
+            style:__sC['home_large_image']() + `background-image:url(../assets/${__p(['h_page_1_cont','bgImg'],'a1.jpg')});transition:background linear .5s;background-position:center 0;min-height:100vh;height:fit-content;max-height:unset;align-items:center;padding-top:${__p(['h_page_1_cont','font'],'45px') === '45px' ? '120px' : '160px'};background-attachment:fixed;flex-direction:column;row-gap:20px;`,
             class:' bg_overlay'
         },
         [
@@ -24,7 +24,7 @@ __SYD.h_page_1_cont = () =>{
         {
             createState:{
                 stateName:'h_page_1_cont',
-                state:{font:'45px',mode:'1',bgImg:'a1.JPG',flex:true}
+                state:{font:'45px',mode:'1',bgImg:'a1.jpg',flex:true}
             },
             mediaQuery:{
                 query:[{size:'<800px',prop:{font:'39px' , flex:false}}],
@@ -74,6 +74,6 @@ __SYD.h_page_1_cont_text_cont_2 = () =>{
 setInterval(() => {
     const state = __g('h_page_1_cont');
     // state.mode = state.mode === '1' ? '2' : '1';
-    state.bgImg = state.bgImg === 'a1.JPG' ? 'a2.JPG' : 'a1.JPG';
+    state.bgImg = state.bgImg === 'a1.jpg' ? 'a2.jpg' : 'a1.jpg';
     __u('h_page_1_cont',{type:'a',value:state});
 }, 7000);
