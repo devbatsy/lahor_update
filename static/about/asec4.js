@@ -20,7 +20,7 @@ __SYD.asec4_static_overlay_image = () =>{
                     __c(
                         'div',
                         {
-                            style:`position:absolute;top:0;right:0;height:80%;width:70%;background-image:url("../assets/a6.JPG");background-position:center 0;`,
+                            style:`position:absolute;top:0;right:0;height:80%;width:70%;background-image:url("../assets/a6.jpg");background-position:center 0;`,
                             class:'thin_border'
                         },[],{genericStyle:['bg_cover']}
                     ),
