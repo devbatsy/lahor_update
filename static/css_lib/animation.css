@@ -1,0 +1,130 @@
+.tab_drop_down_animate
+{
+    animation-name:tab_drop_down_animate;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: .3s;
+}
+
+.left_incoming_css_animation
+{
+    animation-name:left_incoming_css_animation;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.right_incoming_css_animation_custom_slider
+{
+    animation-name:right_incoming_css_animation_custom_slider;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.drop_down_incoming_css_animation{
+    animation-name:drop_down_incoming_css_animation;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.rotateZ_incoming_css_animation
+{
+    animation-name:rotateZ_incoming_css_animation;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: .7s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.h_page_1_cont_large_image_custom
+{
+    animation-name:h_page_1_cont_large_image_custom;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 50s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* animation-fill-mode: forwards; */
+}
+
+@keyframes tab_drop_down_animate {
+    0%{
+        transform: /*translateY(10px)*/rotateX(-90deg);
+    }
+    100%{
+        transform: /*translateY(0px)*/ rotateX(0deg);
+    }
+}
+
+@keyframes drop_down_incoming_css_animation {
+    0%{
+        /* transform: translateY(-50px); */
+        word-spacing: 100px;
+        opacity: 0;
+        /* letter-spacing: 50px; */
+        opacity: 0;
+    }
+    100%{
+        /* transform: translateY(0px); */
+        word-spacing: auto;
+        opacity: 1;
+        /* letter-spacing: auto; */
+        opacity: 1;
+    }
+}
+
+@keyframes left_incoming_css_animation
+{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes right_incoming_css_animation_custom_slider
+{
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes rotateZ_incoming_css_animation
+{
+    0%{
+        transform:rotateX(-90deg);
+        opacity: 0;
+    }
+    100%{
+        transform:rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes h_page_1_cont_large_image_custom
+{
+    0%{
+        background-size: 100%;
+    }
+    100%{
+        background-size: 150%;
+    }
+}
