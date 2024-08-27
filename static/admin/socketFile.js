@@ -1,6 +1,6 @@
 import { __SYD  , __c, __p, __sC  , __g , __u} from "../../sydneyLib/sydneyDom.js";
 
-ws = new WebSocket('http://localhost:9000');
+ws = new WebSocket('wss://lahor-update.onrender.com');
 
 ws.addEventListener('open' , () =>{
     ws.send(JSON.stringify({post:'img_names'}));
