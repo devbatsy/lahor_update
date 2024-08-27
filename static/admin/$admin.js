@@ -30,7 +30,7 @@ __SYD.container = () =>{
             __c(
                 'div',
                 {
-                    style:`padding:10px;background:#0be10a;position:absolute;top:110px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'gallery' ? 'block' : 'none'}`,
+                    style:`padding:10px;background:#0be10a;position:absolute;top:110px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'gallery' ? 'block' : 'none'};z-index:300;`,
                     class:'hover_admin_text'
                 },
                 [
@@ -57,7 +57,7 @@ __SYD.container = () =>{
             __c(
                 'p',
                 {
-                    style:`padding:10px;background:#67aaf1;position:absolute;top:155px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'gallery' ? 'block' : 'none'}`,
+                    style:`padding:10px;background:#67aaf1;position:absolute;top:155px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'gallery' ? 'block' : 'none'};z-index:300;`,
                     class:'hover_admin_text',
                     onclick:'saveGallery()'
                 },
@@ -69,7 +69,7 @@ __SYD.container = () =>{
             __c(
                 'div',
                 {
-                    style:`padding:10px;background:#0be10a;position:absolute;top:110px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'apartment' ? 'block' : 'none'}`,
+                    style:`padding:10px;background:#0be10a;position:absolute;top:110px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'apartment' ? 'block' : 'none'};z-index:300;`,
                     class:'hover_admin_text'
                 },
                 [
@@ -105,7 +105,7 @@ __SYD.container = () =>{
             __c(
                 'div',
                 {
-                    style:`padding:10px;background:#67aaf1;position:absolute;top:155px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'apartment' ? 'block' : 'none'}`,
+                    style:`padding:10px;background:#67aaf1;position:absolute;top:155px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'apartment' ? 'block' : 'none'};z-index:300;`,
                     class:'hover_admin_text'
                 },
                 [
@@ -149,7 +149,7 @@ __SYD.container = () =>{
             __c(
                 'div',
                 {
-                    style:`padding:10px;background:#0be10a;position:absolute;top:110px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'blog' ? 'block' : 'none'}`,
+                    style:`padding:10px;background:#0be10a;position:absolute;top:110px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'blog' ? 'block' : 'none'};z-index:300;`,
                     class:'hover_admin_text'
                 },
                 [
@@ -182,7 +182,7 @@ __SYD.container = () =>{
             __c(
                 'div',
                 {
-                    style:`padding:10px;background:#67aaf1;position:absolute;top:155px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'blog' ? 'block' : 'none'}`,
+                    style:`padding:10px;background:#67aaf1;position:absolute;top:155px;right:15px;z-index:200;border-radius:15px;border-top-right-radius:0;font-size:12px;box-shadow:-1px 2px 3px #000;cursor:pointer;display:${__p(['container' , 'renderMode'],'gallery') === 'blog' ? 'block' : 'none'};z-index:300;`,
                     class:'hover_admin_text'
                 },
                 [
