@@ -20,14 +20,14 @@ __SYD.asec3_static_overlay_image = () =>{
                     __c(
                         'div',
                         {
-                            style:`position:absolute;top:0;left:0;height:80%;width:70%;background-image:url("../assets/a2.JPG");background-position:center 0;`,
+                            style:`position:absolute;top:0;left:0;height:80%;width:70%;background-image:url("../assets/a2.jpg");background-position:center 0;`,
                             class:'thin_border'
                         },[],{genericStyle:['bg_cover']}
                     ),
                     __c(
                         'div',
                         {
-                            style:`position:absolute;top:50%;left:20%;height:calc(100% - 50%);width:calc(100% - 20%);background-image:url("../assets/a3.JPG");background-position:center 0;`,
+                            style:`position:absolute;top:50%;left:20%;height:calc(100% - 50%);width:calc(100% - 20%);background-image:url("../assets/a3.jpg");background-position:center 0;`,
                             class:'thin_border'
                         },[],{genericStyle:['bg_cover']}
                     )
