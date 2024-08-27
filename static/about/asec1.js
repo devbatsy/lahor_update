@@ -5,7 +5,7 @@ __SYD.a_page_1_cont = () =>{
     return __c(
         'div',
         {
-            style:__sC['home_large_image']() + `background-image:url(../assets/${__p(['a_page_1_cont','bgImg'],'a1.JPG')});transition:background linear .5s;background-position:center 0;min-height:70vh;height:fit-content;max-height:unset;align-items:center;padding-top:120px;background-attachment:fixed;flex-direction:column;row-gap:20px;`,
+            style:__sC['home_large_image']() + `background-image:url(../assets/${__p(['a_page_1_cont','bgImg'],'a1.jpg')});transition:background linear .5s;background-position:center 0;min-height:70vh;height:fit-content;max-height:unset;align-items:center;padding-top:120px;background-attachment:fixed;flex-direction:column;row-gap:20px;`,
             class:' bg_overlay'
         },
         [
