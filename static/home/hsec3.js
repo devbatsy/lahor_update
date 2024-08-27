@@ -20,7 +20,7 @@ __SYD.hsec3_video_container = () =>{
                         {
                             style:'width:100%;max-height:calc(100vh - 80px);'+__sC['border-rad-15'](),
                             class:'thin_border',
-                            controls:false,
+                            // controls:false,
                             src:'../assets/test_video.mp4'
                         },[],{
                             events:{
